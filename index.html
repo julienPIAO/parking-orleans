@@ -18,15 +18,60 @@
 
 <body>
 
-  <section class="hero is-danger">
+  <section class="hero is-danger is-smal">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            PIAO présente&nbsp;<i class="fas fa-directions"></i>
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item is-active" href="https://www.stationnement-orleans.fr/">
+              infos
+            </a>
+            <a href="https://www.stationnement-orleans.fr/stationnement-dans-les-parkings#les-tarifs-horaires" class="navbar-item">
+              tarifs
+            </a>
+            <a class="navbar-item" href="https://www.youtube.com/watch?v=s18r63MP1C4/">
+              wtf
+            </a>
+            <span class="navbar-item">
+              <a href="https://data.orleans-metropole.fr" class="button is-danger is-inverted">
+                <span class="icon">
+                  <i class="fa fa-street-view"></i>
+                </span>
+                <span>Open Data</span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
   <div class="hero-body">
-    <div class="container">
+    <div class="container has-text-centered">
       <h1 class="title">
-        <i class="fa fa-refresh fa-spin fa-fw"></i> Parking Orléans
+       <img src="https://i.imgur.com/7jDg0jL.png" alt="Logo">
       </h1>
-      <h2 class="subtitle">
-        Visualise en temps réel le nombre de places disponibles dans les parkings de la ville</h2>
+     
     </div>
+  </div>
+
+  <!-p- Hero footer: will stick at the bottom -->
+  <div class="hero-foot">
+    <p class="container has-text-centered"><i class="fa fa-refresh fa-spin fa-fw"></i> Visualise en temps réel le nombre de places disponibles dans les parkings de la ville
+    <br/></p>
   </div>
 </section>
 <section class="section">
@@ -35,7 +80,7 @@
 <footer class="footer">
   <div class="content has-text-centered">
     <p>
-      <strong>Trouve une place</strong> créé avec <i class="fas fa-heart"></i> amour par <a href="https://www.facebook.com/JulienPIAO">Julien PIAO</a>. <br/>Les données sont issues <a href="https://data.orleans-metropole.fr/">data.orleans-metropole.fr</a>.
+      <strong>Orléans [ parking ]</strong> créé avec <i class="fas fa-heart"></i> amour par <a href="https://www.facebook.com/JulienPIAO">Julien PIAO</a>. <br/>données issues de <a href="https://data.orleans-metropole.fr/explore/dataset/mobilite-places-disponibles-parkings-en-temps-reel/table/">data.orleans-metropole.fr</a>.<br/>outils utilisés <i class="fa fa-codepen"></i> Codepen et <i class="fa fa-github"></i> Github.
     </p>
   </div>
 </footer>
