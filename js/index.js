@@ -28,8 +28,8 @@ then(function (data) {
     parking.fields.disponibilite + '" max="100">50%</progress>taux de disponnibilit\xE9';
 
 
-    gps.innerHTML = '<a class="button" href="https://www.google.fr/maps/search/' +
-    parking.fields.coords + '"><i class="fas fa-map"></i>&nbsp;carte</a> <a class="button is-rounded" href="https://www.google.fr/maps/dir/' + parking.fields.coords + '"><i class="fas fa-car-side"></i></a>';
+    gps.innerHTML = '<a class="button is-rounded" href="https://www.google.com/maps/dir/?api=1&destination=' +
+    parking.fields.coords + '&travelmode=driving">acc\xE8s &nbsp...<i class="fas fa-car-side"></i></a>';
 
     append(li, nom);
     append(li, place);
