@@ -25,7 +25,7 @@ then(function (data) {
 
 
     dispo.innerHTML = '<progress class="progress is-success" value="' +
-    parking.fields.disponibilite + '" max="100">50%</progress>taux de disponnibilit\xE9';
+    parking.fields.disponibilite + '" max="100">50%</progress>taux de disponibilit\xE9';
 
 
     gps.innerHTML = '<a class="button is-rounded" href="https://www.google.com/maps/dir/?api=1&destination=' +
